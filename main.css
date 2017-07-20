@@ -11,17 +11,29 @@ body {
     border: 0;
     margin: 0;
     font-size: 16px;
+	
 }
 
 h1 {
     border: 0;
     margin: 0;
+	font-size:-webkit-xxx-large;
+	font-family: 'Shojumaru', cursive;
+	color:white;
 }
 
 .wrapper {
     height: 100%;
     width: 100%;
-    background-color: #BBB;
+	background: url(img/image4.jpg) bottom center;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	
+	
+
+    
+	
 }
 
 .welcome-screen {
@@ -40,23 +52,28 @@ h1 {
     flex-direction: column;
     color: white;
     background-color: #1f1f1f;
+	background: url(img/images5.jpg) bottom center;
+	background-size: cover;
+	
 }
 
 .main header {
     height: 80px;
-    background-color: #282828;
+    
     padding: 1rem;
     color: #FFF;
+	
+	
 }
 
 .main .content {
     flex:1;
-    background-color: #1f1f1f;
+    background-color: transparent;
 }
 
 .main footer {
     height: 80px;
-    background-color: #282828;
+   
     padding-top: 1rem;
 }
 
